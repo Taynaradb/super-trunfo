@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto';
+    /* color: ; */
+}
+
+body{
+    min-height: 845px;
+    background-image: url('../img/super-trunfo-bg.png');
+    background-size: cover;
+    background-color: #000;
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding-bottom: 20vh;
+}
+
+.container{
+    text-align: center;
+    padding: 20px;
+}
+
+button,
+.botao-jogar{
+    padding: 0.8rem 1.5rem;
+    margin: 1rem 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+h1,
+h2{
+    color: white;
+}
+
+#carta-jogador,
+#carta-maquina{
+    width: 360px;
+    height: 500px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    background-size: 350px 300px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+    background-position-y: 10px;
+    border-radius: 33px;
+}
+
+#carta-jogador img,
+#carta-maquina img{
+    width: inherit;
+    height: inherit;
+}
+
+.nome-personagem-jogador,
+.nome-personagem-maquina{
+  position: relative;
+  transform: translateY(-474px);
+}
+
+.atributos-jogador,
+.atributos-maquina{
+    position: relative;
+    transform: translateY(-210px);
+    list-style: none;
+    padding: 0;
+}
